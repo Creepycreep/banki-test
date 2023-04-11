@@ -34,7 +34,14 @@ export default {
 
 <style lang="scss">
 .wrapper {
-  padding: 0 24px 24px;
+  box-sizing: border-box;
+  padding: 20px 24px 24px 24px;
+
+  min-height: calc(100% - 160px);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .modal {

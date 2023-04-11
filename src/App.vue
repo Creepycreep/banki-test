@@ -265,16 +265,25 @@ h6 {
 
   background-color: #ECEAEA;
   color: $color-footer;
-
-  .container {
-    flex-direction: column;
-  }
 }
 
 .overflow {
   overflow: hidden;
 }
 
+@media (max-width: 1185px) {
+
+  .footer {
+    padding: 38px 0;
+
+    background-color: #ECEAEA;
+    color: $color-footer;
+
+    .container {
+      flex-direction: column;
+    }
+  }
+}
 
 @media (max-width: 650px) {
 

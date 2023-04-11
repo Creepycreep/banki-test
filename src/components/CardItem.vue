@@ -78,17 +78,16 @@ export default {
 
 .card {
   width: 280px;
+  min-height: 336px;
 
   border: 1px solid $color-border;
 
   img {
     width: 100%;
-    margin-bottom: 20px;
   }
 
   &__title {
     width: 90%;
-    margin-bottom: 22px;
 
     cursor: pointer;
 
@@ -98,6 +97,8 @@ export default {
   }
 
   &-buy {
+    margin-top: 22px;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
